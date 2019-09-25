@@ -37,7 +37,6 @@ public class Solution {
         }
         result.add(new ArrayList<Integer>(l));
         idx = idx + 1;
-        System.out.println(result.size());
         if (idx == nums.length - 1) {
             idx = 0;
         }
